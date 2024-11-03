@@ -1,6 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Products from './components/Products';
+import { Link } from 'react-router-dom';
 import './Home.css'; 
 
 const Home = () => {
@@ -15,7 +15,7 @@ const Home = () => {
                 <h1 className="display-4 text-light">Welcome to Gadget Haven</h1>
                 <p className="lead">Your one-stop shop for the latest and greatest gadgets!</p>
                 <Link className="btn btn-light btn-lg" to="/products">Shop Now</Link>
-                <a href="/products" className="btn btn-light btn-lg">Shop Now</a>
+                <Link to="/products" className="btn btn-light btn-lg">Shop Now</Link>
             </div>
         </div>
     );
