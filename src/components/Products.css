@@ -1,0 +1,16 @@
+.products {
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+
+.products ul {
+    list-style-type: none;
+}
+
+.products ul li {
+    background: #007bff;
+    color: white;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
